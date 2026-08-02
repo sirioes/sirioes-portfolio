@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #F9F8F6;
+  --color-sand: #EFE9E3;
+  --color-taupe: #D9CFC7;
+  --color-clay: #C9B59C;
+  --color-ink: #2C2A29;
+
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream text-ink font-sans antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+}
