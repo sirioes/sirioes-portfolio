@@ -20,7 +20,7 @@ export default function Navbar() {
         <a href="#home" className="flex items-center gap-2">
           <Sparkle size={16} className="text-clay" />
           <span className="font-display text-2xl uppercase tracking-wide text-clay">
-            Sirioes&apos;s Portfolio
+            sirioes&apos;s portfolio
           </span>
           <Sparkle size={16} className="text-clay" />
         </a>
